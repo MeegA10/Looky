@@ -1,0 +1,730 @@
+::-webkit-scrollbar {display: none;}
+
+
+.grande {
+	background-color: #403F3F;
+}
+
+/*Codigo para el banner y logo*/
+.navbar-brand{
+	position: relative;
+	top: 0px;
+	left: 10px;
+}
+
+/*Boton options de menu hamburguesa*/
+.dropdown {
+	position: relative;
+	top: 0px;  
+	left: -40px;
+	background-color: #272829;
+}
+
+/*Opciones del menu hamburguesa*/
+.dropdown-menu {
+	position: relative;
+	top: 0px;
+	left: -10px;
+	margin-top: 10px;
+}
+
+/*Para darle la ubicació a la primera captura de Looky*/
+.img {
+	position: relative;
+	top: 70px;
+	left: 130px;
+	width: 0px;
+    height: 0px;
+    border-radius: 20%;
+    margin: 0%;
+    border:2px solid #fff;
+    display: block;
+}
+
+/*Caja de texto de explicacion de Looky*/
+.caja-pri {
+	position: relative;
+	top: -700px;
+	left: 600px; 
+	width: 700px;
+    height: 500px;
+   	font-family: sans-serif; 
+	font-size: 18px; 
+	font-weight: 300; 
+	border: 2px solid #403F3F;
+
+}
+
+/*Boton creadores*/
+.boton {
+	position: relative;
+	top: 300px;
+	left: 1580px;
+}
+
+/*Caja de texto explicando el boton creadores*/
+.caja-creador {
+	position: relative;
+	top: -925px;
+	right: 790px; 
+	width: 200px;
+    height: 200px;
+   	font-family: sans-serif; 
+	font-size: 18px; 
+	font-weight: 300; 
+	border: 2px solid #F3F3D5;
+}
+
+/*Boton "acerca de la app"*/
+.boton2 {
+	position: relative;
+	top: 600px;
+	left: 1560px;
+}
+
+/*Caja de texto explicando el boton2*/
+.caja-creador1 {
+	position: relative;
+	top: -900px;
+	right: 990px; 
+	width: 200px;
+    height: 200px;
+   	font-family: arial; 
+	font-size: 18px; 
+	font-weight: 300; 
+	border: 2px solid #5878ca;
+}
+
+/*Para darle ubicaciona la primer imagen de Pioneros*/
+.perfil {
+	position: relative;
+	margin-top: 50px;
+	padding-left: 150px;
+	width: 100%;
+}
+
+/*Caja de texto de la información de Perfiles*/
+.info-p {
+	position: relative;
+	margin-top: -670px;
+	left: 730px; 
+	width: 90px;
+    height: 600px;
+   	font-family: sans-serif; 
+	font-size: 20px; 
+	font-weight: 300;
+	border: 2px solid #403F3F;
+}
+
+
+	/*Diseño de la parte de Creadores*/
+*{margin: 0; padding: 0; box-sizing: border-box;
+font-family: sans-serif;}
+
+/*Medidas de la imagen central de Creadores*/
+.grupo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.grupo figure {
+	position: relative;
+	top: 230px;
+	height: 350px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+}
+
+/*Efecto de imagen central*/
+.grupo figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.grupo figure .texto {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+
+}
+
+/*Efecto hover en el texto*/
+.grupo figure:hover > .texto {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.grupo figure:hover > .texto h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.grupo figure:hover > img {
+	transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.grupo figure .texto h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	
+}
+
+/*Diseño del texto*/
+.grupo figure .texto p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+/*Medidas de la imagen central de Creadores*/
+.diana {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.diana figure {
+	position: relative;
+	top: 100px;
+	right: 500px;
+	height: 300px;
+	width: 290px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+}
+	 
+/*Efecto de imagen central*/
+.diana figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.diana figure .text-di {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+
+/*Efecto hover en el texto*/
+.diana figure:hover > .text-di {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.diana figure:hover > .text-di h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.diana figure:hover > img {
+		transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.diana figure .text-di h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+}
+
+/*Diseño del texto*/
+.diana figure .text-di p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+/*Medidas de la imagen central de Creadores*/
+.fabri {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.fabri figure {
+	position: relative;
+	top: 20px;
+	left: 500px;
+	height: 300px;
+	width: 290px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+
+}
+
+/*Efecto de imagen central*/
+.fabri figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.fabri figure .text-fa {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+
+}
+
+
+/*Efecto hover en el texto*/
+.fabri figure:hover > .text-fa {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.fabri figure:hover > .text-fa h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.fabri figure:hover > img {
+	transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.fabri figure .text-fa h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	
+}
+
+/*Diseño del texto*/
+.fabri figure .text-fa p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+/*Medidas de la imagen central de Creadores*/
+.dani {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.dani figure {
+	position: relative;
+	top: 300px;
+	left: -670px;
+	height: 300px;
+	width: 290px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+}
+
+/*Efecto de imagen central*/
+.dani figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.dani figure .text-da {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+
+}
+
+/*Efecto hover en el texto*/
+.dani figure:hover > .text-da {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.dani figure:hover > .text-da h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.dani figure:hover > img {
+	transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.dani figure .text-da h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	
+}
+
+/*Diseño del texto*/
+.dani figure .text-da p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+/*Medidas de la imagen central de Creadores*/
+.gracia {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.gracia figure {
+	position: relative;
+	top: 220px;
+	left: -210px;
+	height: 300px;
+	width: 290px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+}
+
+/*Efecto de imagen central*/
+.gracia figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.gracia figure .text-gra {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+
+}
+
+/*Efecto hover en el texto*/
+.gracia figure:hover > .text-gra {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.gracia figure:hover > .text-gra h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.gracia figure:hover > img {
+	transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.gracia figure .text-gra h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	
+}
+
+/*Diseño del texto*/
+.gracia figure .text-gra p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+/*Medidas de la imagen central de Creadores*/
+.magui {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.magui figure {
+	position: relative;
+	top: 135px;
+	left: 210px;
+	height: 300px;
+	width: 290px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+}
+
+/*Efecto de imagen central*/
+.magui figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.magui figure .text-meg {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+
+}
+
+/*Efecto hover en el texto*/
+.magui figure:hover > .text-meg {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.magui figure:hover > .text-meg h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.magui figure:hover > img {
+	transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.magui figure .text-meg h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	
+}
+
+/*Diseño del texto*/
+.magui figure .text-meg p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+/*Medidas de la imagen central de Creadores*/
+.perez {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+/*Estilo a la etiqueta figure*/
+.perez figure {
+	position: relative;
+	top: 50px;
+	left: 670px;
+	height: 300px;
+	width: 290px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	cursor: pointer;
+}
+
+/*Efecto de imagen central*/
+.perez figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+/*Posicion del texto*/
+.perez figure .text-per {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,103,123,0.7);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+
+}
+
+/*Efecto hover en el texto*/
+.perez figure:hover > .text-per {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Efecto hover en el Tema*/
+.perez figure:hover > .text-per h3 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.perez figure:hover > img {
+	transform: scale(1.3);
+}
+
+/*Diseño del Tema*/
+.perez figure .text-per h3 {
+	color: #fff;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	
+}
+
+/*Diseño del texto*/
+.perez figure .text-per p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+
+
+
+
+
+.princi {
+	position: relative;
+	margin-top: -750px;
+	left: 730px; 
+	width: 90px;
+    height: 600px;
+   	font-family: sans-serif; 
+	font-size: 20px; 
+	font-weight: 300;
+	border: 2px solid #403F3F;
+}
+
+.carousel-item {
+	position: relative;
+	top: 00px;
+}
+
+.user {
+	position: relative;
+	margin-top: 70px;
+	left: 275px;
+}
+
+.tecni {
+	position: relative;
+	margin-top: -690px;
+	left: 1120px;
+}
+
+.info {
+	position: relative;
+	margin-top: 200px;
+	padding-left: 50px;
+	width: 100%;
+}
+
+.info-g {
+	position: relative;
+	margin-top: -360px;
+	left: 900px; 
+	width: 90px;
+    height: 600px;
+   	font-family: sans-serif; 
+	font-size: 20px; 
+	font-weight: 300;
+	border: 2px solid #403F3F;
+}
+
+
+html {
+	border: 0;
+	padding: 0;
+}
+
+body {
+	overflow-y: hidden;
+}
