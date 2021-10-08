@@ -209,7 +209,8 @@ font-family: sans-serif;}
 
 /*Estilo a la etiqueta figure*/
 .diana figure {
-	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 100px;
 	right: 500px;
 	height: 300px;
@@ -285,7 +286,8 @@ font-family: sans-serif;}
 
 /*Estilo a la etiqueta figure*/
 .fabri figure {
-	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 20px;
 	left: 500px;
 	height: 300px;
@@ -365,7 +367,8 @@ font-family: sans-serif;}
 
 /*Estilo a la etiqueta figure*/
 .dani figure {
-	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 300px;
 	left: -670px;
 	height: 300px;
@@ -443,7 +446,8 @@ font-family: sans-serif;}
 
 /*Estilo a la etiqueta figure*/
 .gracia figure {
-	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 220px;
 	left: -210px;
 	height: 300px;
@@ -521,7 +525,8 @@ font-family: sans-serif;}
 
 /*Estilo a la etiqueta figure*/
 .magui figure {
-	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 135px;
 	left: 210px;
 	height: 300px;
@@ -599,7 +604,8 @@ font-family: sans-serif;}
 
 /*Estilo a la etiqueta figure*/
 .perez figure {
-	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 50px;
 	left: 670px;
 	height: 300px;
